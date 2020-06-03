@@ -22,7 +22,7 @@ Installation
 You can use the project in three ways.
 
   1. Copy/paste the *websocket_server.py* file in your project and use it directly
-  2. `pip install git+` (latest code)
+  2. `pip install git+https://github.com/to09/websocket-Chatbox/` (latest code)
   3. `pip install websocket-server` (might not be up-to-date)
 
 
