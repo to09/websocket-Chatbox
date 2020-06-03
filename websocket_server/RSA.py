@@ -87,15 +87,15 @@ def decrypt(pk, ciphertext):
         
 
 def RSA_encryption(message):
-"""
-Method to convert message to encrypted code with private and public keys.
+        """
+        Method to convert message to encrypted code with private and public keys.
         
         Args: 
             message (str): message send by the client to the server
         
         Returns: 
             list: encrypted list of numbers in which public key is attached
-"""
+        """
         print("RSA Encrypter/ Decrypter")
         prime1 , prime2 = prime_return()
         public, private = generate_keypair(prime1, prime2)
@@ -104,14 +104,14 @@ Method to convert message to encrypted code with private and public keys.
         return encrypted_msg 
 
 def RSA_decryption(encrypted_msg):
-"""
-Method to convert encrypted message to client's message using the public key.
+        """
+        Method to convert encrypted message to client's message using the public key.
         
         Args: 
             encrypted_msg (list): encrypted list of numbers in which public key is attached
         
         Returns: 
             str: message decrypted to the string and send it to the client
-"""
+        """
         public = encrypted_msg.pop()
         return decrypt(public, encrypted_msg)
