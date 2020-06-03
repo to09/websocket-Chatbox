@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: websocket Chatbox
+Version: 0.4
+Summary: A simple fully working websocket Chatbox in Python with no external dependencies
+Home-page: https://github.com/to09
+Author: Prajjwal KumarAgrahari
+Author-email: agraharitoshu854204@gmail.com
+License: MIT
+Description: A websockets based chat server that can be used for exchanging text messages as well as running system commands on the other machine (linux).
+
+Platform: any
